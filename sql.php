@@ -6,8 +6,12 @@
             <a href="#" class="active">Menu</a>
             <a href="sql.php?link=createdatabase&ext=.php#creationBase">DataBase</a>
             <a href="sql.php?link=table&ext=.php#tableSql">Les Tables</a>
-            <a href="sql.php?link=selectSql&ext=.php#selectSql">SELECT</a>
-            <a href="#">Link 4</a>
+            <a href="sql.php?link=selectSql&ext=.php#selectSql">Select</a>
+            <a href="sql.php?link=insertIntoSql&ext=.php#insertInto">Insert Into</a>
+            <a href="sql.php?link=TypeSql&ext=.php#typeSql">Types</a>
+            <a href="sql.php?link=contrainte&ext=.php#contrainteSql" >Contraintes</a>
+
+
         </div>
 
     <section class="containSql">
@@ -31,15 +35,19 @@
                     tous les autres respectent généralement la normes mais présentent plusieurs particularités qui sont souvent ennuyeuses. <br><br>
             </p>
         </div>
-      <pre>
-            <?php
+    
+            <?php         
+                
+                if(empty($_GET)){
 
-              
-                $linksql = $_GET['link'];
+                }else{
+                    $linksql = $_GET['link'];
                   $extsql = $_GET['ext'];
                  require_once('sqlpages/'.$linksql.$extsql);
+                }  
+                
                 ?>
-       </pre>
+      
         
     </section>
  </div>

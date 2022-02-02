@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,19 +21,25 @@
                     <div class="row">
                     <div class="column">
                         <h3>Front</h3>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="#">HTML</a>
+                        <a href="#">CSS</a>
+                        <a href="#">JS</a>
                     </div>
                     <div class="column">
                         <h3>Back</h3>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
+                        <a href="#">PHP</a>
+                        <a href="#">JS</a>
                         <a href="#">Link 3</a>
                     </div>
                     <div class="column">
                         <h3>Data</h3>
                         <a href="sql.php">SQL</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                    <div class="column">
+                        <h3>Logiciels et liens</h3>
+                        <a href="sql.php">WAMP</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>

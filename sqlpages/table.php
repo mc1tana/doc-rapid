@@ -15,6 +15,7 @@
                         ...
                    )
             </pre>
+            <p>Pour cet exemple créons les champs name et population.</p>
             <img src="images/createTable.png" alt="">
 
             <p>constatons que la table country et ses champs ont bien été créés</p>

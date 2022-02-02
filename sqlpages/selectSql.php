@@ -6,7 +6,7 @@
 
             <h3>SELECT SIMPLE</h3>
 
-            <p>Pour lire des donnés  tout les champs d'une table </p>
+            <p>Pour lire les données de tout les champs d'une table </p>
             <pre>
                    <span class="codeSql">SELECT</span>  * <span class="codeSql">FROM</span> nom_de_table_visé;
             </pre>

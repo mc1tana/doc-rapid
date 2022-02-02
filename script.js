@@ -5,10 +5,7 @@ console.log(linksql);
         console.log(page);
 for(let i = 0 ; 0<linksql.lenhgth-1;i++){
     linksql[i].addEventListener('click', (e)=>{
-    const page = document.querySelector('#changepage');
-        page.innerHTML = '<?php require_once("sqlpages/")'
-        console.log(page);
-        console.log('oko');
+     e.preventDefault();
 
     })
 }
