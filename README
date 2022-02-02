@@ -1,0 +1,12 @@
+installer php 
+
+pour cela telechager la derniere version de php faire un dossier php ou vous le souhaitez 
+à la racine de votre disk c'est tres bien puis copier ce qui ce trouve dans php.zip/php/
+ensuite aller dans variable environnement de votre systeme puis modifier la variable PATH (en slectionnant puis cliquez sur modifier à droite)
+ojoutez un nouveau lien celui de php
+
+il devrait ressembler à ça C:/php
+
+enfin relancez votre environnement de developement 
+
+la commande php -v devrait etre accecible
