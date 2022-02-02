@@ -1,3 +1,4 @@
+<?php ?>
 <div id="selectSql" class="paragraphSql">
              <h2>La Commande DELETE</h2>
              <p>
